@@ -1,2 +1,3 @@
 numpy==2.1.3
 torch==2.13.0
+scikit-learn==3.6.0
