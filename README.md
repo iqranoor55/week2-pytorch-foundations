@@ -22,19 +22,23 @@ Verified the fundamental theorem: H(P,Q) = H(P) + D_KL(P||Q)
 This is the exact mathematics behind every neural network 
 loss function.
 
+**Day 5 -  Activation Functions from Scratch**
+Implemented ReLU, Sigmoid, Tanh, GELU and Swish with custom 
+autograd forward and backward passes. Verified all gradients 
+mathematically using torch.autograd.gradcheck. All 5 functions 
+passed unit tests confirming backward passes are correct.
+
 ## Concepts Covered
 - PyTorch tensor operations and benchmarking
 - Autograd: requires_grad, backward(), computation graphs
+- Custom autograd Function: forward and backward pass
+- Activation functions: ReLU, Sigmoid, Tanh, GELU, Swish
 - Bayes theorem applied to spam classification
 - Information theory: entropy, cross-entropy, KL divergence
 - Probability and posterior computation
 
-## DSA This Week
-- Sliding Window pattern
-- Solved 2 LeetCode problems on Sliding Window
-
 ## Tech Stack
-Python • NumPy • PyTorch • Pandas • sickit learn
+Python • NumPy • PyTorch • Pandas • Scikit-learn
 
 ## Key Insight
 Cross-entropy is not just a loss function name. It is the 
